@@ -1,0 +1,4 @@
+[Configuration]
+folder = "website"
+file = "index.html"
+output = "output.html"
