@@ -1,8 +1,10 @@
 # Website-Compression
 Compression your website down to one index file
 
-## Installation
+## Module Required
 `pip install beautifulsoup4`
+
+`pip install html5lib`
 
 ## instuction
 - place your website files in the website folder

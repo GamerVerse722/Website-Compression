@@ -8,7 +8,7 @@ import re
 class Compress:
     def __init__(self):
         with open(os.path.join(os.getcwd(), Information.folder, Information.file), "r") as mainFile:
-            self.doc = BeautifulSoup(mainFile.read(), "html.parser")
+            self.doc = BeautifulSoup(mainFile.read(), "html5lib")
 
     def compress(self):
         self.lines()
